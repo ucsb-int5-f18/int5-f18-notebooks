@@ -1,8 +1,8 @@
 {
   "name": "Lab 1: Expressions",
-  "endpoint": "cal/data8/sp17/lab01",
+  "endpoint": "ucsb/int5/fa18/lab01",
   "src": [
-    "lab01.ipynb"
+    "int5-lab01.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
