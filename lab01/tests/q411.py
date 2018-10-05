@@ -7,9 +7,9 @@ test = {
         {
           'code': r"""
           >>> # Fill in the line
-          >>> #   num_avenues_away = ...
+          >>> # num_horizontal_blocks = ...
           >>> # in the cell above. 
-          >>> num_avenues_away != ...
+          >>> num_horizontal_blocks != ...
           True
           """,
           'hidden': False,
@@ -17,9 +17,9 @@ test = {
         },
         {
           'code': r"""
-          >>> # Remember to compute the absolute value of 7-10.  Traveling 
-          >>> # "-3 blocks" doesn't really make sense!
-          >>> num_avenues_away != -3
+          >>> # Remember to compute the absolute value of 2-15.  Traveling 
+          >>> # "-13 blocks" doesn't really make sense!
+          >>> num_horizontal_blocks != -13
           True
           """,
           'hidden': False,
@@ -27,16 +27,16 @@ test = {
         },
         {
           'code': r"""
-          >>> num_avenues_away
-          3
+          >>> num_horizontal_blocks
+          13
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> manhattan_distance
-          1462
+          >>> sannic_freebirds_distance
+          1175
           """,
           'hidden': False,
           'locked': False
