@@ -1,6 +1,6 @@
 {
   "name": "Homework 1: Causality and Expressions",
-  "endpoint": "cal/data8/sp18/hw01",
+  "endpoint": "ucsb/int5/fa18/hw01",
   "src": [
     "hw01.ipynb"
   ],
