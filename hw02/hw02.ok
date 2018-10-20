@@ -1,6 +1,6 @@
 {
-  "name": "Homework 3: Tables and Charts",
-  "endpoint": "cal/data8/sp17/hw02",
+  "name": "Homework 2: Tables and Charts",
+  "endpoint": "ucsb/int5/fa18/hw02",
   "src": [
     "hw02.ipynb"
   ],
