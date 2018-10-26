@@ -1,6 +1,6 @@
 {
   "name": "Functions and Visualizations",
-  "endpoint": "ucsd/dsc10/sp18/lab04",
+  "endpoint": "ucsb/int5/fa18/lab04",
   "src": [
     "lab04.ipynb"
   ],
