@@ -1,0 +1,15 @@
+{
+  "name": "Homework 3",
+  "endpoint": "ucsb/int5/fa18/hw03",
+  "src": [
+    "hw03.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
