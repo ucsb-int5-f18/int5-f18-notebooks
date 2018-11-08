@@ -1,6 +1,6 @@
 {
   "name": "Simulations",
-  "endpoint": "cal/data8/sp18/lab05",
+  "endpoint": "ucsb/int5/fa18/lab05",
   "src": [
     "lab05.ipynb"
   ],
