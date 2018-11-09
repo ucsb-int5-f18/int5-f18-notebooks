@@ -2,7 +2,7 @@
   "name": "Lab06: Group, Join, Conditionals, Iteration, Randomness.",
   "endpoint": "ucsb/int5/fa18/lab06",
   "src": [
-    "hw04.ipynb"
+    "lab06.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
