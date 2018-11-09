@@ -8,7 +8,7 @@ test = {
           'code': r"""
           >>> import numpy as np
           >>> len(lineup_data.column(0))
-          7
+          4
           """,
           'hidden': False,
           'locked': False
