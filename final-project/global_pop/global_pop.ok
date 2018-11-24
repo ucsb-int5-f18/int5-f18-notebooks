@@ -1,0 +1,13 @@
+{
+  "name": "Global Population Growth",
+  "endpoint": "ucsb/int5/fa18/finalproject",
+  "src": [
+    "global_pop_project1.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "grading"
+  ]
+}
