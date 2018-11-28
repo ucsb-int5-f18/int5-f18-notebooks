@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> # Check your column labels and spelling
-          >>> fertility_over_time('usa', 2010).labels == ('Year', 'Children per woman')
+          >>> fertility_over_time(fertility, 'usa', 2010).labels == ('Year', 'Children per woman')
           True
           """,
           'hidden': False,
@@ -16,9 +16,9 @@ test = {
         {
           'code': r"""
           >>> # Check that you use the start year to determine the data range.
-          >>> all(fertility_over_time('usa', 2010).column('Year') == np.arange(2010, 2016))
+          >>> all(fertility_over_time(fertility, 'usa', 2010).column('Year') == np.arange(2010, 2016))
           True
-          >>> all(fertility_over_time('usa', 2005).column('Year') == np.arange(2005, 2016))
+          >>> all(fertility_over_time(fertility, 'usa', 2005).column('Year') == np.arange(2005, 2016))
           True
           """,
           'hidden': False,
@@ -26,7 +26,7 @@ test = {
         },
         {
           'code': r"""
-          >>> print(fertility_over_time('bgd', 2009))
+          >>> print(fertility_over_time(fertility, 'bgd', 2009))
           Year | Children per woman
           2009 | 2.32
           2010 | 2.28
@@ -41,7 +41,7 @@ test = {
         },
         {
           'code': r"""
-          >>> print(fertility_over_time('usa', 2010))
+          >>> print(fertility_over_time(fertility, 'usa', 2010))
           Year | Children per woman
           2010 | 1.93
           2011 | 1.9
