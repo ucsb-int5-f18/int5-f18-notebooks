@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 1 < number_yum_reactions < 10
+          >>> 0 <= number_yum_reactions < 10
           True
           """,
           'hidden': False,
