@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> type(engineering) == numpy.ndarray
+          >>> type(engineering) == np.ndarray
           True
           """,
           'hidden': False,
