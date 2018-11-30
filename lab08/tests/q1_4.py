@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> ten_skittles_reactions.num_cols == 2
+          >>> ten_skittles_reactions.num_columns == 2
           True
           """,
           'hidden': False,
