@@ -6,15 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> best_skittle == 'Yum' 
-          True
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> best_skittle == 'Yum!' 
+          >>> best_skittle == 'Yum' or best_skittle == 'Yum!' 
           True
           """,
           'hidden': False,
