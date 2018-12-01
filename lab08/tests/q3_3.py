@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question2.1',
+  'name': 'Question3.3',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> major_data.num_cols == 4
+          >>> major_data.num_columns == 3
           True
           """,
           'hidden': False,
