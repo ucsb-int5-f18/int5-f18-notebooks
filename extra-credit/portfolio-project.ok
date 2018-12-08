@@ -1,0 +1,14 @@
+{
+  "name": "Extra Credit Portfolio Project",
+  "endpoint": "ucsb/int5/fa18/extracreditproject",
+  "src": [
+    "portfolio-project.ipynb",
+    "*.csv"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "grading"
+  ]
+}
